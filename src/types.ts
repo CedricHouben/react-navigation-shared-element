@@ -4,7 +4,7 @@ import {
   SharedElementResize,
   SharedElementAlign,
   SharedElementTransitionProps,
-} from "react-native-shared-element";
+} from "chouben-react-native-shared-element";
 
 export {
   SharedElementNode,

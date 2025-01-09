@@ -1,6 +1,6 @@
 {
-  "name": "react-navigation-shared-element",
-  "version": "3.1.3",
+  "name": "chouben-react-navigation-shared-element",
+  "version": "3.1.4",
   "description": "react-native-shared-element bindings for React Navigation",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -55,7 +55,7 @@
     "eslint": "^7.32.0",
     "expo-module-scripts": "^2.0.0",
     "prettier": "^2.4.1",
-    "react-native-shared-element": "^0.8.8",
+    "chouben-react-native-shared-element": "0.8.10",
     "react-navigation": "^4.4.4",
     "react-navigation-stack": "^2.10.4",
     "react-navigation-tabs": "^2.11.1"
@@ -63,6 +63,6 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-shared-element": "*"
+    "chouben-react-native-shared-element": "*"
   }
 }

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { View, StyleSheet } from "react-native";
-import { SharedElementTransition } from "react-native-shared-element";
+import { SharedElementTransition } from "chouben-react-native-shared-element";
 
 import SharedElementRendererData from "./SharedElementRendererData";
 import { SharedElementEventSubscription } from "./types";

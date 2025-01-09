@@ -6,7 +6,7 @@ import {
 import hoistNonReactStatics from "hoist-non-react-statics";
 import * as React from "react";
 import { View, StyleSheet, InteractionManager } from "react-native";
-import { nodeFromRef } from "react-native-shared-element";
+import { nodeFromRef } from "chouben-react-native-shared-element";
 
 import { ISharedElementRendererData } from "./SharedElementRendererData";
 import SharedElementSceneContext from "./SharedElementSceneContext";
