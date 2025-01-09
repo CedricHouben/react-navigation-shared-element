@@ -6,7 +6,6 @@ import {
 import hoistNonReactStatics from "hoist-non-react-statics";
 import * as React from "react";
 import { View, StyleSheet, InteractionManager } from "react-native";
-import { nodeFromRef } from "chouben-react-native-shared-element";
 
 import { ISharedElementRendererData } from "./SharedElementRendererData";
 import SharedElementSceneContext from "./SharedElementSceneContext";
@@ -18,6 +17,7 @@ import {
   SharedElementsComponentConfig,
 } from "./types";
 import { EventEmitter } from "./utils/EventEmitter";
+import { nodeFromRef } from "chouben-react-native-shared-element";
 
 const styles = StyleSheet.create({
   container: {
